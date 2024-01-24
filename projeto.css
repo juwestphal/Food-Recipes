@@ -1,0 +1,80 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.nav-item a.nav-link {
+  color: black;
+}
+
+.nav-item a.nav-link:hover {
+  background-color: black;
+  color: white;
+}
+
+.more-info-container {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-gd {
+  font-size: 25px;
+}
+
+.text-md {
+  font-size: 20px;
+  color: black;
+}
+
+/* Custom Classes */
+.btn.btn-primary {
+  color: white;
+  background: black;
+  border-color: black;
+}
+
+.btn.btn-info {
+  color: white;
+  background: #666666;
+  border-color: #666666;
+}
+
+.card.card-recipe {
+  margin-bottom: 30px;
+}
+
+.card.card-recipe figure {
+  margin: 0;
+}
+
+.card-recipe .card-body {
+  border-top: 1px solid #ccc;
+}
+
+.card-recipe .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-recipe .card-title {
+  min-height: 50px;
+}
+
+.modal-recipe-img {
+  background: #f0f0f0;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-recipe-img img {
+  width: 100%;
+  height: 400px !important;
+}
